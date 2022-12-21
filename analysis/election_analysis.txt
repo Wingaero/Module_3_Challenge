@@ -5,34 +5,14 @@ Total Votes: 369,711
 -------------------------
 
 County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
 
-County: Jefferson
----------------------
-
-Total County Votes: 38855
 -----------------------
-
-Percent of Total Votes: 10.509560169970598
+Largest County Turnout: Denver
 -----------------------
-
-County: Denver
----------------------
-
-Total County Votes: 306055
------------------------
-
-Percent of Total Votes: 82.78222719908253
------------------------
-
-County: Arapahoe
----------------------
-
-Total County Votes: 24801
------------------------
-
-Percent of Total Votes: 6.708212630946875
------------------------
-DenverCharles Casper Stockham: 23.0% (85,213)
+Charles Casper Stockham: 23.0% (85,213)
 Diana DeGette: 73.8% (272,892)
 Raymon Anthony Doane: 3.1% (11,606)
 -------------------------
