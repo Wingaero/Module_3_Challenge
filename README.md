@@ -1,11 +1,16 @@
 # Module_3_Challenge
 
-Overview of Election Audit: 
-Explain the purpose of this election audit analysis.
+## Overview of Election Audit: 
+
+#### The purpose of this election audit analysis is to provide a summary of the provided data about the election with the inclusion of additional data.  
+#### This additional data is as follows:
+    - The voter Turnout for each county
+    - The percentage of the total votes from each county out of the total count
+    - The county with the highest turnout
 
 
 
-Election-Audit Results: 
+## Election-Audit Results: 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
 
@@ -22,5 +27,5 @@ Which candidate won the election, what was their vote count, and what was their 
 
 
 
-Election-Audit Summary: 
+## Election-Audit Summary: 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
