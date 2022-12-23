@@ -31,7 +31,7 @@ winning_percentage = 0
 
 # 2: Track the largest county and county voter turnout.
 largest_county = ""
-voter_turnout = 0
+largest_county_votes = 0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
@@ -96,8 +96,6 @@ with open(file_to_save, "w") as txt_file:
 
     # 6a: Write a for loop to get the county from the county dictionary.
     total_county_votes = {}
-    largest_county = ""
-    largest_county_votes = 0
 
     for county_name in county_list:
         # 6b: Retrieve the county vote count.
