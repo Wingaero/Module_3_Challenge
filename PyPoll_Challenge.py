@@ -4,12 +4,20 @@
 # Add our dependencies.
 import csv
 import os
+from pathlib import Path
+
+#sourced a solution to the pathing from:
+#https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("Desktop/Analysis_Bootcamp/module_3/Module_3_Challenge/Resources/election_results.csv")
+data_folder = Path("Desktop/Analysis_Bootcamp/module_3/Module_3_Challenge/")
+file_to_load = data_folder / "resources" / "election_results.csv"
+#file_to_load = os.path.join("Desktop/Analysis_Bootcamp/module_3/Module_3_Challenge/Resources/election_results.csv")
 
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("Desktop/Analysis_Bootcamp/module_3/Module_3_Challenge/analysis/election_analysis.txt")
+
+file_to_save = data_folder / "Analysis" / "election_analysis.txt"
+#file_to_save = os.path.join("Desktop/Analysis_Bootcamp/module_3/Module_3_Challenge/analysis/election_analysis.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
